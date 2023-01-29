@@ -1,0 +1,103 @@
+
+td{
+	border: 2px solid black;
+	padding: 5px;
+	margin: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-collapse: separate;
+	/*display: inline-block;
+	display: inline;
+	display: block;
+	display: inline;
+	display: block;
+	display: inline-block;
+	display: none;*/
+	/*border-bottom: none;*/
+	border-top-color: red;
+	border-bottom-color: red;
+	border-left-color: royalblue;
+	border-right-color: royalblue;
+	border-left-style: dashed;
+	border-top-style: dotted;
+	border-bottom-style: double;
+	border-right-style: solid;
+	border-width: 10px;
+	/*border-image-source: url("../CSS/images/about.jpg");*/
+	border-image-repeat: repeat;
+	border-spacing: inherit;
+	border-spacing: initial;
+	background-color: black;
+	color: white;
+	background-image: url("../css/images/about.jpg");
+}
+p.textcolor1{
+	color: rgb(255, 0, 0);
+	background-color: rgb(0, 0, 0);
+	text-align: left;
+	text-align-last: left;
+	white-space: nowrap;
+}
+p.textcolor2{
+	color: rgba(0, 255, 0, 1.0);
+	background-color: rgba(0, 0, 255, 1.0);
+	text-align: right;
+	text-align-last: right;
+	line-height: 20px;
+}
+p.textcolor3{
+	color: #b52f4a;
+	background-color: #d4c433;
+	text-align: center;
+	text-align-last: center;
+	letter-spacing: 5px;
+	/*vertical-align: text-bottom;*/
+
+}
+p.textcolor4
+{
+	color: hsl(0, 100%, 50%);
+	background-color: hsl(54, 65%, 52%);
+	text-align: justify;
+	text-align-last: justify;
+	word-spacing: 20px;
+}
+p.direction{
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	vertical-align: text-top;
+}
+div>h1
+{
+	color: rgb(255, 0, 0);
+	text-decoration-line: underline;
+	text-decoration-color: lightblue;
+	text-decoration-style: wavy;
+	text-decoration-thickness: 3px;
+	text-transform: lowercase;
+	text-indent: 50px;
+}
+.textshadow
+{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: -37px 0px 5px darkred,0 0 5px blue;
+}
+.boxshadow
+{
+    font-weight: bold;
+    font-size: 20px;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	background-color: aqua;
+	box-shadow: 25px -19px 0 black;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+
+}
